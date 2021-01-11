@@ -1,0 +1,68 @@
+html, body {
+  overflow-x: hidden;
+}
+
+/* Sidenav */
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+}
+
+.sidenav a {
+  text-decoration: none;
+  padding: 10px 50px;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  text-decoration: none;
+  color: #f1f1f1;
+}
+
+.sidenav .tabSpaceTop {
+  margin-top: 50px;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 3rem;
+}
+
+/* Herotext */
+#heroText {
+  text-align: center;
+  padding: 10% 10%;
+}
+
+#heroText .heading {
+  font-family: 'Rock Salt', cursive;
+  font-size: 4rem;
+  margin: 4% 0;
+}
+
+#heroText .subheading {
+  font-family: 'Merriweather Sans', sans-serif;
+  margin: 4% 0;
+}
+/* footer section */
+#footer {
+  text-align: center;
+}
+
+#footer p {
+  font-family: 'Open-Sans', sans-serif;
+  color: grey;
+}

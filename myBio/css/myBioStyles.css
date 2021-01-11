@@ -1,0 +1,98 @@
+html, body {
+  overflow-x: hidden;
+}
+
+/* Sidenav */
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+}
+
+.sidenav a {
+  text-decoration: none;
+  padding: 10px 50px;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  text-decoration: none;
+  color: #f1f1f1;
+}
+
+.sidenav .tabSpaceTop {
+  margin-top: 50px;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 3rem;
+}
+
+/* title section */
+#title {
+  padding: 5% 15%;
+}
+
+.profile-pic {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#title .titleText {
+
+  margin: 25px 0 10px;
+}
+
+/* intro section */
+#intro {
+  padding: 0 15%;
+}
+
+#intro h4 {
+  padding: 2px 5px;
+  font-family: 'Merriweather', sans-serif;
+  background-color: #5aa469;
+  color: #fff;
+  border-radius: 5px;
+  display: block;
+}
+
+.introText {
+  text-align: justify;
+  line-height: 2;
+  font-family: 'Open-Sans', sans-serif;
+}
+
+/* all activity images */
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 140px;
+}
+
+.fig-legend {
+  padding: 10px 0;
+  text-align: left;
+  color: grey;
+}
+
+.btn-center {
+  display: block;
+  margin: 20px auto;
+}

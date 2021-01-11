@@ -1,0 +1,98 @@
+html, body {
+  overflow-x: hidden;
+}
+
+/* sidenav */
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+}
+
+.sidenav a {
+  text-decoration: none;
+  padding: 10px 50px;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  text-decoration: none;
+  color: #f1f1f1;
+}
+
+.sidenav .tabSpaceTop {
+  margin-top: 50px;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 3rem;
+}
+
+#title {
+  margin: 4% 15% 1%;
+  text-align: center;
+}
+
+/* Heading text */
+.mainText {
+  font-family: 'Rock Salt', cursive;
+  font-size: 5rem;
+  padding: 50px 0;
+}
+
+.subText {
+  font-family: 'Merriweather', sans-serif;
+  font-size: 25px;
+  padding: 0 25%;
+}
+
+/* Contact details */
+#title .fab {
+  text-align: center;
+  margin: 40px 20px;
+  padding: 10px;
+  width: 50px;
+  border-radius: 100%;
+  color: grey;
+}
+
+#title a {
+  text-decoration: none;
+}
+
+#title .fab:hover {
+  opacity: 0.7;
+}
+
+#title .fa-facebook-f {
+  background-color: #3B5998;
+  color: white;
+}
+
+#title .fa-instagram {
+  background-color: #cd486b;
+  color: white;
+}
+
+#title .fa-twitter {
+  background-color: #55ACEE;
+  color: white;
+}
+
+.btn-position {
+  display: block;
+  margin: 2% auto;
+}
